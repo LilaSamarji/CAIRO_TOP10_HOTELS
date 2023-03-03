@@ -1,4 +1,4 @@
-fetch('http://localhost:3001/')
+fetch('http://localhost:3000/')
       .then(response => response.json())
        .then(hotel =>{  
         for(var i=0;i<hotel.length;i++) {

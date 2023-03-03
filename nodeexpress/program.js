@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
  
 
   var XLSX = require("xlsx");
-  var workbook = XLSX.readFile("users.xlsx");
+  var workbook = XLSX.readFile("hotel.xlsx");
   var sheet_name_list = workbook.SheetNames;
   console.log(sheet_name_list); // getting as Sheet1
   
