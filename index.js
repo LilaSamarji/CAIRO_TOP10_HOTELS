@@ -1,4 +1,4 @@
-fetch('https://lilasamarji.github.io/hotel_prices_cairo/')
+fetch('https://excel-api-9r3o.onrender.com/')
       .then(response => response.json())
        .then(hotel =>{  
         for(var i=0;i<hotel.length;i++) {
